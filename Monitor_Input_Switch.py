@@ -9,7 +9,7 @@ def set_monitor_input(monitor_identifier, input_value):
         CMM_PATH,
         "/SetValue",
         monitor_identifier,
-        "60",
+        "60",                            # This may be different on your monitor, check the ControlMyMonitor GUI
         str(input_value)
     ]
 
